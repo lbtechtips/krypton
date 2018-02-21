@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kodidownloader" name="Kodi Downloader" version="1.1" provider-name="LB">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Downloader</summary>
+    <description lang="en">Simple tool to download newer versions of Kodi. This tool is only compatible with devices capable of running Android apps. Some examples are the Amazon Fire TV, Amazon Fire TV Stick, Amazon Fire tablets, and any other devices without the Google Play Store. Android devices can simply update from the Google Play Store without the need of this addon, unless you would like to try the experimental versions.</description>
+	<website>http://www.lbtechtips.com</website>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <screenshot>media/screenshot-01.png</screenshot>
+    </assets>
+    <news>1.1 (2016-9-03)
+          - Few visual improvements
+        1.0 (2016-8-25)
+        - Initial release with Support for Kodi 17</news>
+    <disclaimer>Use at your own risk!</disclaimer>
+  </extension>
+</addon>
