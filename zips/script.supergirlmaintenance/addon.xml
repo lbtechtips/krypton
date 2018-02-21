@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.supergirlmaintenance" name="Supergirl Maintenance" version="1.2"
+    provider-name="LB">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Supergirl Maintenance</summary>
+    <description lang="en">Spin-off of Raw Maintenance. This tool was originally created in order to learn more about building Kodi add-ons. In my testing it is fully functional so enjoy!</description>
+    <platform>all</platform>
+    <website>http://www.lbtechtips.com</website>
+    <news>1.2 (2016-8-25)
+        - Initial Support for Kodi 17</news>
+    <disclaimer>Use at your own risk!</disclaimer>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>media/screenshot-01.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
